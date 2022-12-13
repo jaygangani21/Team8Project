@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Shop Mart</string>
+    <string name="font_sz">14sp</string>
+
+    <string name="facebook_app_id">not now</string>
+    <string name="fb_login_protocol_scheme">abhi baki hai</string>
+    <string name="user_account_name">User Account Name</string>
+    <string name="sign_out">Sign out</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="about_us">ShopMart is a CP Project made by Ronit and Jay </string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+    android:orientation="vertical"
+    tools:context=".AccountData">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarAccData"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Account" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/acc_name"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/acc_header"
+        android:fontFamily="@font/exo2_bold"
+        android:text="@string/user_account_name"
+        android:textColor="@color/white"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/email_icon"/>
+
+        <TextView
+            android:id="@+id/acc_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="6dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/round_edit_text"
+            android:text="Cp Project"
+            android:textSize="20sp"
+            android:textColor="@color/gray"
+            android:singleLine="true"
+            android:elevation="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/birthday_icon"/>
+
+        <TextView
+            android:id="@+id/acc_birthday"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="6dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/round_edit_text"
+            android:text="10/11/2022"
+            android:textSize="20sp"
+            android:textColor="@color/gray"
+            android:singleLine="true"
+            android:elevation="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/birthday_icon" />
+
+        <TextView
+            android:id="@+id/ad"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="6dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/round_edit_text"
+            android:text="0123456789"
+            android:textSize="20sp"
+            android:textColor="@color/gray"
+            android:singleLine="true"
+            android:elevation="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
